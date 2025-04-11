@@ -33,15 +33,33 @@ set(SOURCES
     src/core/Logger.cpp
     src/core/EventSystem.cpp
     src/core/ErrorHandler.cpp
+    src/window/overlay_window.cpp
+    src/window/monitor_info.cpp
+    src/window/window_manager.cpp
+    src/window/input_handler.cpp
+    src/rendering/overlay_renderer.cpp
+    src/rendering/animation_manager.cpp
+    src/rendering/border_renderer.cpp
+    src/rendering/composite_renderer.cpp
+    src/rendering/z_order_manager.cpp
 )
 
 # Define header files
 set(HEADERS
-    include/core/Application.h
-    include/core/Settings.h
-    include/core/Logger.h
-    include/core/EventSystem.h
-    include/core/ErrorHandler.h
+    src/core/Application.cpp
+    src/core/Settings.cpp
+    src/core/Logger.cpp
+    src/core/EventSystem.cpp
+    src/core/ErrorHandler.cpp
+    src/window/overlay_window.cpp
+    src/window/monitor_info.cpp
+    src/window/window_manager.cpp
+    src/window/input_handler.cpp
+    src/rendering/overlay_renderer.cpp
+    src/rendering/animation_manager.cpp
+    src/rendering/border_renderer.cpp
+    src/rendering/composite_renderer.cpp
+    src/rendering/z_order_manager.cpp
 )
 
 # Add include directories

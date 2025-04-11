@@ -182,6 +182,10 @@
      return m_gameWindowHandle && IsWindow(m_gameWindowHandle);
  }
  
+ void WindowManager::ToggleVisibility(bool animate) {
+    m_overlayWindow.SetVisible(!m_overlayWindow.IsVisible(), animate);
+}
+ 
  void WindowManager::UpdateOverlayPosition() {
      if (!m_gameWindowHandle || !IsGameWindowValid()) {
          return;

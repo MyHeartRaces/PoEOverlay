@@ -150,6 +150,12 @@
       * @brief Update the overlay position to match the game window
       */
      void UpdateOverlayPosition();
+
+     /**
+     * @brief Toggle the overlay visibility
+     * @param animate Whether to animate the transition
+     */
+    void ToggleVisibility(bool animate = true);
  
      /**
       * @brief Handle window events from the overlay window
