@@ -1,0 +1,16 @@
+{
+  "name": "poeoverlay",
+  "version": "0.1.0",
+  "dependencies": [
+    "nlohmann-json",
+    "spdlog",
+    "fmt"
+  ],
+  "builtin-baseline": "3426db05b996481ca31e95fff3734cf23e0f51bc",
+  "overrides": [
+    {
+      "name": "cef",
+      "version": "106.1.1+g9ec800c+chromium-106.0.5249.199"
+    }
+  ]
+}

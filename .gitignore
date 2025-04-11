@@ -1,0 +1,57 @@
+# Build directories
+build/
+out/
+bin/
+lib/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.pdb
+*.obj
+*.ilk
+*.exp
+*.dll
+*.exe
+Debug/
+Release/
+x64/
+x86/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Dependency directories
+vcpkg_installed/
+
+# Log files
+*.log
+*.tlog
+
+# Config and data files
+config.json
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor backup files
+*~
+*.bak
+*.swp
+
+implementation.pdf
